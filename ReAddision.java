@@ -4,7 +4,7 @@ public class ReAddision {
         if (n < 10)
             return n;
 
-        return addision(n / 10) + n % 10;
+        return addision(n / 10) + (n % 10);
         //System.out.println(n);
     }
 

@@ -1,7 +1,7 @@
 // Java program to find equilibrium 
 // index of an array 
 
-class PrefixedSum03 { 
+class PrefixedSum04 { 
 	int equilibrium(int arr[], int n) 
 	{ 
 		int sum = 0; // initialize sum of whole array 
@@ -27,7 +27,7 @@ class PrefixedSum03 {
 // Driver code 
 	public static void main(String[] args) 
 	{ 
-		PrefixedSum03 equi = new PrefixedSum03(); 
+		PrefixedSum04 equi = new PrefixedSum04(); 
 		int arr[] = { -7, 1, 5, 2, -4, 3, 0 }; 
 		int arr_size = arr.length; 
 		System.out.println("First PrefixedSum index is " + 
